@@ -1,0 +1,57 @@
+.card-bi{
+    height: 175px;
+    width: 360px;
+    border: 1px solid purple;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.tille >h4{
+font-weight: 600;
+font-size: 18px;
+}
+.card-bi>p{
+font-size: 12px;
+font-weight: 300;
+line-height: 20px;
+}
+.til{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card-bi>button{
+    width: 268px;
+    height: 40px;
+    border: 1px solid purple;
+    border-radius: 15px;
+}
+@media (max-width:420px) {
+    .card-bi{
+        height: 142px;
+        justify-content: center;
+align-items: flex-start;
+        width: 312px;
+    }
+    .cards{
+        padding-inline: 10vw;
+        position: absolute;
+        top: 0px;
+    }
+    .cards{
+        padding-inline: 10vw;
+        position: relative;
+        top: 100px;
+    }
+    .tens{
+        position: relative;
+        top: 40px;
+
+    }
+    
+}

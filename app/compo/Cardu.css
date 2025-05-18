@@ -1,0 +1,80 @@
+.card,.card-big{
+    height: 216px;
+    width: 312px;
+    border: 1px solid purple;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.card{
+    height: 250px;
+}
+.card-big{
+    height: 142px;
+    background-color: white;
+
+}
+.cards{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.tille>h4{
+font-weight: 600;
+background-color: white;
+font-size: 18px;
+}
+.card-big>p,.card-big>button{
+    background-color: white;
+}
+.tile>h4,.tile>Image{
+    background: white;
+}
+.tille{
+    background-color: white;
+}
+.card>p{
+font-size: 12px;
+font-weight: 300;
+line-height: 20px;
+background-color: white;
+
+}
+.tile{
+    display: flex;
+    background-color: white;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card>button,.card-big>a>button{
+    width: 268px;
+    height: 40px;
+    border: 1px solid purple;
+    background-color: white;
+
+    border-radius: 15px;
+}
+
+@media (min-width:900px) {
+    .card{
+        background-color: white;
+
+        width: 40vw;
+        height: 207px;
+        border-radius: 5px;
+        align-items: flex-start;
+
+
+    }
+    .card-big>a>button,.card>button{
+        width: 220px;
+    }
+}
