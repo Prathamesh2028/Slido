@@ -5,7 +5,7 @@ import { useAppcontext } from '..';
 
 import "./dashy.css";
 import Image from 'next/image';
-import a from './images/icon1.png'
+import a from '../images/icon1.png'
 const Measurement = () => {
   // State to track the selected size
   let {data,setData}=useAppcontext();
